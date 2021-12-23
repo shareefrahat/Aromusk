@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/3031bdf29d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Aromusk | Product Landing Page</title>
+</head>
+
+<body>
+
+
+    <!------------------------------------------NAVBAR----------------------------------------->
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/Aromusk.png" alt="Aromusk Logo" width="140px">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapselink">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapselink">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-info">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#product" class="nav-link text-info">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-info dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#service" class="dropdown-item">Drop Shiping</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Supply Chain</a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">Whole Sale</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-info">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!------------------------------------------CAROUSEL--------------------------------------->
+
+
+    <div class="carousel slide container-fluid p-0" id="myslider" data-bs-ride="carousel" data-bs-touch="true">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="images/perfume1.jpg" alt="perfume1" class="d-block w-100" height="400px">
+                <div class="carousel-caption text-danger">
+                    <h1>Esmellie</h1>
+                    <p>30% OFF untill Januaray 2022</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/perfume2.jpg" alt="perfume2" class="d-block w-100" height="400px">
+                <div class="carousel-caption text-dark">
+                    <h1>Fragscent</h1>
+                    <p>Top Selling Product</p>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="images/perfume3.jpg" alt="perfume3" class="d-block w-100" height="400px">
+                <div class="carousel-caption text-light">
+                    <h1>DewDrop</h1>
+                    <p>Buy One Get One FREE!</p>
+                </div>
+            </div>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myslider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#myslider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#myslider" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <button type="button" class="carousel-control-prev" data-bs-target="#myslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#myslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+
+    <!------------------------------------------PRODUCTS---------------------------------------->
+
+
+    <div class="product container-fluid p-5 text-center" id="product">
+        <h3 class="p-2 bg-primary rounded text-light">Products</h3>
+        <div class="product-display row row-cols-auto justify-content-center m-4">
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product1.jpg" alt="product1" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuaim Chocolate</h5>
+                        <p class="card-text text-danger">$49.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product2.png" alt="product2" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Arochem ARO</h5>
+                        <p class="card-text text-danger">$58.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product3.jpg" alt="product3" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Rehab Silver</h5>
+                        <p class="card-text text-danger">$39.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product4.jpg" alt="product4" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Al Sabaya</h5>
+                        <p class="card-text text-danger">$54.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product9.jpg" alt="product8" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">HUGO BOSS</h5>
+                        <p class="card-text text-danger">$44.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product5.jpeg" alt="product5" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">El Firdaus</h5>
+                        <p class="card-text text-danger">$49.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product7.jpg" alt="product7" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Swiss SE</h5>
+                        <p class="card-text text-danger">$65.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product8.jpeg" alt="product8" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Crown Oud</h5>
+                        <p class="card-text text-danger">$79.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product6.jpg" alt="product6" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Rasasi Ruh</h5>
+                        <p class="card-text text-danger">$34.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m-4">
+                <div class="card h-100">
+                    <img src="images/product10.jpeg" alt="product8" class="card-img-top" width="100px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">New Noir</h5>
+                        <p class="card-text text-danger">$29.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="loading text-center">
+            <div class="alert alert-secondary d-inline-block alert-dismissible">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>  More product is comming soon...
+              </div>
+            
+        </div>
+    </div>
+
+
+    <!------------------------------------------SERVICES---------------------------------------->
+
+
+    <div class="service container-fluid p-5 text-center" id="service">
+        <h3 class="p-2 bg-primary rounded text-light">Services</h3>
+        <div class="service-display row justify-content-center m-4">
+            <div class="col m-4">
+                <div class="card h-100">
+                    <i class="fas fa-shipping-fast text-success p-3" style="font-size: 60px;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Drop Shiping</h5>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Voluptatibus, mollitia?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-4">
+                <div class="card h-100">
+                    <i class="fas fa-sitemap text-success p-3" style="font-size: 60px;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Supply Chain</h5>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Commodi, expedita.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-4">
+                <div class="card h-100">
+                    <i class="fas fa-store text-success p-3" style="font-size: 60px;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Whole Sale</h5>
+                        <p class="card-text text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates, saepe?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------FEEDBACKS---------------------------------------->
+
+
+    <div class="feedback container-fluid p-5 text-center">
+        <h3 class="p-2 bg-primary rounded text-light">Feedbacks</h3>
+        <div class="feedback-display row justify-content-center text-center m-4">
+            <div class="col m-4">
+                    <img src="images/customer1.jpg" alt="customer1" class="rounded-circle" width="200px" height="200px">
+                        <h5 class="text-danger mt-4">Daniel Moses</h5>
+                        <div class="rating text-warning m-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur!</p>
+            </div>
+            <div class="col m-4">
+                    <img src="images/customer2.jpg" alt="customer2" class="rounded-circle" width="200px" height="200px">
+                        <h5 class="text-danger mt-4">Abdullah Rashid</h5>
+                        <div class="rating text-warning m-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col m-4">
+
+                    <img src="images/customer3.jpg" alt="customer3" class="rounded-circle" width="200px" height="200px">
+                        <h5 class="text-danger mt-4">Ezzekele Ishaq</h5>
+                        <div class="rating text-warning m-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------LINKS------------------------------------------>
+
+
+    <div class="links container-fluid bg-secondary p-3 text-light">
+        <div class="row">
+
+            <!-------------------------------SPONSORS-------------------------------->
+
+            <div class="col-lg-4 p-2 mt-3 text-center">
+                <h4 class="text-decoration-underline">Sponsors</h4>
+                <div class="spons-img mt-3">
+                    <img src="images/sponsor1.jpg" alt="sponsor1" class="img-thumbnail" width="120px">
+                    <img src="images/sponsor3.png" alt="sponsor3" class="img-thumbnail" width="120px">
+                    <img src="images/sponsor4.png" alt="sponsor4" class="img-thumbnail" width="120px">
+                </div>
+            </div>
+
+            <!-------------------------------CONTACT-------------------------------->
+
+            <div class="col-lg-4 p-2 mt-3 text-center" id="contact">
+                <h4 class="text-decoration-underline">Contact</h4>
+                <form action="#" style="text-align: left;">
+                    <div class="name mb-3 mt-3">
+                        <label for="name" class="form-label">Name: </label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Your Name" name="name">
+                    </div>
+                    <div class="email mb-3">
+                        <label for="email" class="form-lable">Email: </label>
+                        <input type="email" class="form-control" id="usermail" placeholder="Email must be valid"
+                            name="email">
+                    </div>
+                    <div class="msg mb-3">
+                        <label for="msg" class="form-label">Message: </label>
+                        <textarea name="msg" class="form-control" id="usermsg" rows="4">Write here...</textarea>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <label for="chk" class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember Me
+                        </label>
+                    </div>
+                    <button type="sumbit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+
+            <!-------------------------------CONNECT-------------------------------->
+
+            <div class="col-lg-4 p-3 mt-3 text-center">
+                <h4 class="text-decoration-underline">Connect</h4>
+                <div class="icons p-2" style="font-size: 25px;">
+                    <i class="fab fa-facebook p-2"></i>
+                    <i class="fab fa-twitter p-2"></i>
+                    <i class="fab fa-youtube p-2"></i>
+                    <i class="fab fa-instagram p-2"></i>
+                    <i class="fas fa-envelope p-2"></i>
+                </div>
+                <h4 class="m-3">Dowonload App</h4>
+                <img src="images/play-store.png" alt="play-store" width="140px">
+                <img src="images/apple-store.png" alt="apple-store" width="140ox">
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------FOOTER----------------------------------------->
+
+
+    <div class="credit container-fluid p-3 bg-dark text-white-50 text-center">
+        <p>&copy; Designed with Bootstrap 5 by <a class="text-decoration-none text-info"
+                href="https://twitter.com/shareefrahat">Rahat</a></p>
+    </div>
+
+
+    <!------------------------------------------SCRIPT----------------------------------------->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
